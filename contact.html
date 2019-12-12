@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="This portfolio is about Nick Hays">
+    <title>Nick Hays</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+  </head>
 
-  <title>Nick Hays</title>
-</head>
+<body>
 
-<header>
+  <header>
+    <div class="container">
+      <div id="top"> 
+        <h1>Nick Hays</h1>
+      </div>
+        <nav>
+          <ul>
+                  <!--Links to navigate pages-->
+              <a href="contact.html">Contact</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="index.html">About</a>
+          </ul>
+       </nav>
+   </div>
+  </header>
+
+  <section id="form">
+    <div class="container">
+      <h2>Contact</h2>
+
+      <form action="action_page.php">
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+
+          <label for="email">Email Address</label>
+          <input type="text" id="email" name="email" placeholder="Your email address..">
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+    </div>
+  </section>
 
 
-  <h1>Nick Hays</h1>
-
-  <!--Links to navigate pages-->
-  <a href="file:///C:/Users/18174/portfolio/contact.html">Contact</a>
-  <a href="file:///C:\Users\18174\portfolio\portfolio.html">Portfolio</a>
-  <a href="file:///C:\Users\18174\portfolio\.index.html">About</a>
+  </body>
