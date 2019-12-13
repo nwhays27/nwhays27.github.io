@@ -24,9 +24,9 @@ header {
 
 nav {
     float: right;
+    padding-right: 30px;
     margin-top: -90px;
 }
-
 
 a {
     padding-right: 30px;
@@ -42,24 +42,39 @@ h1 {
     margin-bottom: 0px;
 }
 
-h2 {
-    
+h2 {    
     color: #4aaaaf;
-    padding: 10px;
+    font-size: x-large;
     width: 165px;
-    text-align: left;
-    margin-left: 10px;
-    padding-top: 10px;
-    font-size: 25px;
+    text-align: left;   
 }
 
-img {
+.pics {
+    clear: both;
     float: left;
-    margin-left: 20px;
-    padding-right: 20px;
+    vertical-align: bottom;
+}
+#one  {
+    float: left;    
+     margin: 0 15px 0 0;
+    }
+
+#two {
+    float: right;
+    margin: 0 0 0 15px;
 }
 
- .footer {
+#three {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+#four {
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+.footer {
     width: 100%;
     padding: 10px;
     background-color: #615959;
