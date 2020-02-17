@@ -1,32 +1,19 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    line-height: 1.5;
-    padding: 0;
-    margin: 0;
-    background-color: lightgray;
-}
-
-.container {
-    width: 960px;
-    height: 100%;
-    margin: auto;
-    background: white;
-    line-height: 2;
-    font-size: 15px;
-}
 
 header {
-    Background: white;
-    border-bottom: gray 4px solid;
-    padding-top: 15px;; 
+    background: black;
+    border-bottom: blue 4px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#top {
+    font-size: 60px;
 }
 
 nav {
     float: right;
-    margin-top: -90px;
+    margin-top: -50px;
 }
-
 
 a {
     padding-right: 30px;
@@ -34,23 +21,15 @@ a {
 }
 
 h1 {
-    background: #4aaaaf;
-    color: white;
-    padding: 10px;
-    width: 165px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 0px;
+    color: white;
 }
 
-h2 {
+
+h3 {
     
-    color: #4aaaaf;
-    padding: 10px;
-    width: 165px;
-    text-align: left;
-    margin-left: 10px;
-    padding-top: 10px;
-    font-size: 25px;
+    color: black;
 }
 
 img {
@@ -72,4 +51,22 @@ img {
     position: fixed;
     left: 0;
     bottom: 0;
+ }
+
+ ul {
+     font-size: 20px;
+     padding-top: 20px;
+ }
+
+ nav {
+     font-weight: bolder;
+ }
+
+ .jumbotron {
+     margin-left: 20%;
+     margin-right: 20%;
+ }
+
+ body {
+     background-color: black;
  }

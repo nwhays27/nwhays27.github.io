@@ -92,4 +92,16 @@ input[type=text], select, textarea {
     font-size: 10px;
     padding-top: 20px;
  }
-  
+
+ .card {
+  margin-left: 50px;
+ }
+
+ #cardTwo {
+   padding-bottom: 25px;
+ }
+
+ #buttonTwo {
+   margin-top: 40px;
+   margin-bottom: -30px;
+ }
