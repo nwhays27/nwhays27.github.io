@@ -73,3 +73,9 @@ img {
  body {
      background-color: black;
  }
+
+.btn {
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: black;
+}
