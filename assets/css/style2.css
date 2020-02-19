@@ -1,20 +1,5 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    line-height: 1.5;
-    padding: 0;
-    margin: 0;
-    background-color: lightgray;
-}
 
-.container {
-    width: 960px;
-    height: 100%;
-    margin: auto;
-    background: white;
-    line-height: 2;
-    font-size: 15px;
-}
+
 
 header {
   background: black;
@@ -27,11 +12,12 @@ nav {
   float: right;
   margin-top: -50px;
   font-weight: bolder;
+  font-size: 20px;
+  color: blue;
 }
 
-ul {
-  font-size: 20px;
-  padding-top: 20px;
+body {
+  background-image: url(https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg);
 }
 
 
@@ -45,15 +31,15 @@ h1 {
     padding: 10px;
     text-align: left;
     margin-bottom: 0px;
-    padding-left: 150px;
+    margin-left: 150px;
 }
 
-h2 {    
-    color: #4aaaaf;
-    font-size: x-large;
-    width: 165px;
-    text-align: left;   
+h2 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
+
 
 input[type=text], select, textarea {
     width: 100%; 
@@ -75,31 +61,41 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
 
-  .jumbotron {
-    margin-left: 10%;
-    margin-right: 10%;
+
+.contactName {
+  margin-left: 15%;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
   
  
   input[type=submit]:hover {
     background-color: green;
   }
-  
-  
-.headName {
 
+#form {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-  .footer {
-    width: 100%;
-    padding: 10px;
-    background-color: #615959;
-    color: white;
-    height: 25px;
-    text-align: center;
-    margin-top: 95px;
-    font-size: 10px;
-    padding-top: 20px;
+.footer {
+  width: 100%;
+  padding-bottom: 30px;
+  background-color: black;
+  color: white;
+  height: 25px;
+  text-align: center;
+  margin-top: 95px;
+  font-size: 10px;
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+ .jumbotron {
+   margin-left: 13%;
+   margin-right: 13%;
  }
 
  .card {
