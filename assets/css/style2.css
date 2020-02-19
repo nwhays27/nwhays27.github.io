@@ -31,13 +31,17 @@ h1 {
     padding: 10px;
     text-align: left;
     margin-bottom: 0px;
-    margin-left: 150px;
+    margin-left: 170px;
 }
 
 h2 {
-  font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  font-weight: bolder;
+}
+
+h3 {
+  padding-bottom: 5%;
 }
 
 
@@ -63,8 +67,8 @@ input[type=text], select, textarea {
 
 
 .contactName {
-  margin-left: 15%;
-  font-size: 25px;
+  
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
   
@@ -76,6 +80,8 @@ input[type=text], select, textarea {
 #form {
   margin-left: 15%;
   margin-right: 15%;
+  margin-top: 4%;
+  margin-bottom: 10%;
 }
 
 .footer {
@@ -93,6 +99,10 @@ input[type=text], select, textarea {
   bottom: 0;
 }
 
+.ul2 {
+  color: blue;
+}
+
  .jumbotron {
    margin-left: 13%;
    margin-right: 13%;
@@ -100,7 +110,10 @@ input[type=text], select, textarea {
 
  .card {
   margin-left: 50px;
+  border: solid 4px black;
  }
+
+
 
  #cardTwo {
    padding-bottom: 25px;
