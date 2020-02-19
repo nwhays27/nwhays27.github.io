@@ -1,75 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="This portfolio is about Nick Hays" />
+        <title>Nick Hays</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style2.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+    </head>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="This portfolio is about Nick Hays">
-    <title>Nick Hays</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  </head>
+    <body>
+        <!--Contains the white heading space up top-->
+        <header>
+          <div class="headName">                    
+          <h1>Nick Hays</h1>    
+                <nav>
+                    <ul>
+                        <!--Links to navigate pages-->
+                        <a href="contact.html">Contact</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="index.html">About</a>
+                    </ul>
+                </nav>
+              </div>
+        </header>
 
-<body>
-<!--Contains the white heading space up top-->
-  <header>
-    <div class="container">
-      <div id="top"> 
-        <h1>Nick Hays</h1>
-      </div>
-        <nav>
-          <ul>
-                  <!--Links to navigate pages-->
-              <a href="contact.html">Contact</a>
-              <a href="portfolio.html">Portfolio</a>
-              <a href="index.html">About</a>
-          </ul>
-       </nav>
-   </div>
-  </header>
+        <!--Main content will be here-->
+          <div class="jumbotron">
+            <h3 class="display-4">Portfolio</h3>
+        
+            <div class="cards form-inline">
+                <div class="card" style="width: 18rem;">
+                    <img
+                        src="https://mk0spaceflightnoa02a.kinstacdn.com/wp-content/uploads/2019/07/48380511427_eeafd03bd7_k.jpg"
+                        class="card-img-top"
+                        alt="..."
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Launch Watch Application</h5>
+                        <p class="card-text">
+                            This rocket launch application was created by my
+                            team and I for our first project.
+                        </p>
+                        <a
+                            href="https://laross10.github.io/blueSpaceLaunch/"
+                            class="btn btn-primary"
+                            >Take Me There!</a
+                        >
+                        <a
+                            href="https://github.com/LAROSS10/blueSpaceLaunch"
+                            class="btn btn-primary"
+                            >Github Link</a
+                        >
+                    </div>
+                </div>
 
-<!--Main content will be here-->
-    <div class="container">
-      <h2>Portfolio</h2>
-      <div class="cards form-inline">
-  
-      <div class="card" style="width: 18rem;">
-        <img src="https://mk0spaceflightnoa02a.kinstacdn.com/wp-content/uploads/2019/07/48380511427_eeafd03bd7_k.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Launch Watch Application</h5>
-          <p class="card-text">This rocket launch application was created by my team and I for our first project.</p>
-          <a href="https://laross10.github.io/blueSpaceLaunch/" class="btn btn-primary">Take Me There!</a>
-          <a href="https://github.com/LAROSS10/blueSpaceLaunch" class="btn btn-primary">Github Link</a>
+                <div class="card" id="cardTwo" style="width: 18rem;">
+                    <img
+                        src="https://makeawebsitehub.com/wp-content/uploads/2016/02/learn-code-e1455713167295.jpg"
+                        class="card-img-top"
+                        alt="..."
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Code Quiz</h5>
+                        <p class="card-text">
+                            This is a code quiz I made that utilizes CDNs.
+                        </p>
+                        <a
+                            href="https://nwhays27.github.io/codequiz/"
+                            class="btn btn-primary"
+                            id="buttonTwo"
+                            >Take Me There!</a
+                        >
+                        <a
+                            href="https://github.com/nwhays27/codequiz"
+                            class="btn btn-primary"
+                            id="buttonTwo"
+                            >Github Link</a
+                        >
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img
+                        src="https://thumbs.dreamstime.com/z/thermometer-high-temperature-forty-degrees-celsius-against-background-continent-indian-subcontinent-hot-weather-154814453.jpg"
+                        class="card-img-top"
+                        alt="..."
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Weather App</h5>
+                        <p class="card-text">
+                            My weather app uses an API to collect the weather
+                            data for whatever city you search.
+                        </p>
+                        <a
+                            href="https://nwhays27.github.io/weatherapp/"
+                            class="btn btn-primary"
+                            >Take Me There!</a
+                        >
+                        <a
+                            href="https://github.com/nwhays27/weatherapp"
+                            class="btn btn-primary"
+                            >Github Link</a
+                        >
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
 
-      <div class="card" id="cardTwo" style="width: 18rem;">
-        <img src="https://makeawebsitehub.com/wp-content/uploads/2016/02/learn-code-e1455713167295.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Code Quiz</h5>
-          <p class="card-text">This is a code quiz I made that utilizes CDNs.</p>
-          <a href="https://nwhays27.github.io/codequiz/" class="btn btn-primary" id="buttonTwo">Take Me There!</a>
-          <a href="https://github.com/nwhays27/codequiz" class="btn btn-primary" id="buttonTwo">Github Link</a>
-        </div>
-      </div>
-
-      
-      <div class="card" style="width: 18rem;">
-        <img src="https://thumbs.dreamstime.com/z/thermometer-high-temperature-forty-degrees-celsius-against-background-continent-indian-subcontinent-hot-weather-154814453.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Weather App</h5>
-          <p class="card-text">My weather app uses an API to collect the weather data for whatever city you search.</p>
-          <a href="https://nwhays27.github.io/weatherapp/" class="btn btn-primary">Take Me There!</a>
-          <a href="https://github.com/nwhays27/weatherapp" class="btn btn-primary">Github Link</a>
-        </div>
-      </div>
-
-      </div>
-    </div>
-    
-    <footer class="footer">
-      © Copyright
-      </footer>
-    
-  </body>
+        <footer class="footer">
+            © Copyright
+        </footer>
+    </body>
+</html>

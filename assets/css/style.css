@@ -4,6 +4,7 @@ header {
     border-bottom: blue 4px solid;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-left: 10%;
 }
 
 #top {
@@ -13,6 +14,7 @@ header {
 nav {
     float: right;
     margin-top: -50px;
+    font-weight: bolder;
 }
 
 a {
@@ -24,6 +26,7 @@ h1 {
     text-align: left;
     margin-bottom: 0px;
     color: white;
+    margin-left: 10%;
 }
 
 
@@ -58,9 +61,6 @@ img {
      padding-top: 20px;
  }
 
- nav {
-     font-weight: bolder;
- }
 
  .jumbotron {
      margin-left: 20%;

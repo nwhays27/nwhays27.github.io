@@ -17,16 +17,23 @@ body {
 }
 
 header {
-    Background: white;
-    border-bottom: gray 4px solid;
-    padding-top: 15px;; 
+  background: black;
+  border-bottom: blue 4px solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 nav {
-    float: right;
-    padding-right: 30px;
-    margin-top: -90px;
+  float: right;
+  margin-top: -50px;
+  font-weight: bolder;
 }
+
+ul {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
 
 a {
     padding-right: 30px;
@@ -34,12 +41,11 @@ a {
 }
 
 h1 {
-    background: #4aaaaf;
     color: white;
     padding: 10px;
-    width: 165px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 0px;
+    padding-left: 150px;
 }
 
 h2 {    
@@ -68,6 +74,11 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
   }
+
+  .jumbotron {
+    margin-left: 10%;
+    margin-right: 10%;
+}
   
  
   input[type=submit]:hover {
@@ -75,11 +86,9 @@ input[type=text], select, textarea {
   }
   
   
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+.headName {
+
+}
 
   .footer {
     width: 100%;
