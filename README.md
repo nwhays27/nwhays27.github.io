@@ -1,2 +1,3 @@
 # nwhays27.github.io
-My Github Pages
+
+This is my portfolio so you can learn more about me and what I'm creating.
